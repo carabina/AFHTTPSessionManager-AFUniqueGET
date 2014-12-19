@@ -11,7 +11,7 @@ This category adds the `uniqueGET` method to **AFHTTPSessionManager**, which is 
 
 A common request between AFNetworking users (for example [#499](https://github.com/AFNetworking/AFNetworking/issues/499), [#1460](https://github.com/AFNetworking/AFNetworking/issues/1460)).
 
-We achieve this by checking on-going operations before creating new ones.
+We achieve this by checking ongoing operations before creating new ones.
 
 ## Usage
 
