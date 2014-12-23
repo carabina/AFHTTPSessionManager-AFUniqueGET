@@ -9,7 +9,7 @@ Your GET request is in progress, then you make a new request asking for the same
 
 This category adds the `uniqueGET` method to **AFHTTPSessionManager**, which is useful if you want to avoid making multiple calls at the same resource if the operation is still in progress.
 
-A common request between AFNetworking users (for example [#499](https://github.com/AFNetworking/AFNetworking/issues/499), [#1460](https://github.com/AFNetworking/AFNetworking/issues/1460)).
+A common request between AFNetworking users (for example [#499](https://github.com/AFNetworking/AFNetworking/issues/499) and  [#1460](https://github.com/AFNetworking/AFNetworking/issues/1460)).
 
 We achieve this by checking ongoing operations before creating new ones.
 
